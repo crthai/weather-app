@@ -6,7 +6,7 @@ const tempElement = document.querySelector(".temp");
 const humidityElement = document.querySelector(".humidity");
 const windElement = document.querySelector(".wind");
 
-const apiKey = "fc135b3e04d2e4b24d0f2ca436793c59";
+const apiKey = "";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
 
 async function checkWeather(city) {
